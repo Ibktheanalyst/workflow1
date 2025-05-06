@@ -12,6 +12,9 @@ jobs:
               python-version: 3.9
          - name: check python version
            run: python --version
+         - name: check pip version
+           run: pip --version
+
 
     job2:
         name: job2
